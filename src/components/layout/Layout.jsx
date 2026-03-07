@@ -101,7 +101,7 @@ export default function Layout({ children, dark, onToggleDark }) {
           lineHeight: 1,
           marginBottom: '0.7rem',
         }}>
-          Tool Hub
+          Tool Box
         </h1>
         <p style={{
           fontFamily: "'Outfit', sans-serif",

@@ -87,7 +87,7 @@ const greet = name => \`Hello, \${name}!\`;
 
 ---
 
-[Visit GitHub](https://github.com/vyzzze)
+[Visit GitHub](https://vyzzze.github.io/)
 `;
 
 export default function MarkdownPreviewer() {

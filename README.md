@@ -1,4 +1,4 @@
-# tool-box
+# Tool Box
 
 A utility suite built with React + Vite. 11 tools with no backend.
 

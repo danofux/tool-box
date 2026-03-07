@@ -47,7 +47,7 @@ export default function Layout({ children, dark, onToggleDark }) {
         }}
       >
         <img
-          src="/logo.jpg"
+          src={`${import.meta.env.BASE_URL}logo.jpg`}
           alt="vyze logo"
           style={{
             width: '18px',

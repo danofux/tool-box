@@ -155,7 +155,12 @@ export default function PasswordGenerator() {
                 }}>
                   {pwd}
                 </span>
-                <span style={{ fontSize: '0.6rem', color, fontWeight: 600, flexShrink: 0 }}>{bits}b</span>
+                <span
+                  title="Entropy in bits — higher = harder to crack. 72+ is strong."
+                  style={{ fontSize: '0.6rem', color, fontWeight: 600, flexShrink: 0, cursor: 'help', borderBottom: `1px dotted ${color}` }}
+                >
+                  {bits}b
+                </span>
                 <button onClick={() => copy(pwd, i)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-muted)', flexShrink: 0, padding: '2px' }}>
                   {copied === i ? <Check size={13} color="#22c55e" /> : <Copy size={13} />}
                 </button>

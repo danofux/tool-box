@@ -13,7 +13,7 @@ export default function Layout({ children, dark, onToggleDark }) {
 
       {/* ── GitHub button — matches your Figma glassmorphism pill ── */}
       <a
-        href="https://vyzzze.github.io/"
+        href="https://danofux.github.io/"
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -48,7 +48,7 @@ export default function Layout({ children, dark, onToggleDark }) {
       >
         <img
           src={`${import.meta.env.BASE_URL}logo.jpg`}
-          alt="vyze logo"
+          alt="logo"
           style={{
             width: '18px',
             height: '18px',
